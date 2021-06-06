@@ -66,6 +66,10 @@ function take_snapshot()
         {
             document.getElementById("update_emoji").innerHTML = "&#128548;";
         }
+        if(results[0].label =="Crying")
+        {
+            document.getElementById("update_emoji").innerHTML = "&#128546;";
+        }
         if(results[1].label =="Happy")
         {
             document.getElementById("update_emoji2").innerHTML = "&#128522;";
@@ -77,6 +81,10 @@ function take_snapshot()
         if(results[1].label =="Angry")
         {
             document.getElementById("update_emoji2").innerHTML = "&#128548;";
+        }
+        if(results[1].label =="Crying")
+        {
+            document.getElementById("update_emoji").innerHTML = "&#128546;";
         }
     }
  }
